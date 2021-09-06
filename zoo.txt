@@ -1,1 +1,10 @@
-
+stacked graph
+horizon graph
+box-and-whisker plot
+stem-and-leaf plot
+SPLOM
+brushing-and-linking
+||-coord
+choropleth map
+graduated symbol map
+adjacency diagram
