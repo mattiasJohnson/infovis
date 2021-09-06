@@ -4,6 +4,7 @@
 Visualizar cuanto tiempo gasto en diferentes aplicaciónes en mi celular en el mes de Septiembre usando la aplicación App Usage.
 
 ## Datos
+Los datos vienen en csv y cuanton por cada día cuanto he usado una aplicación y cuantas veces lo he abierto. Ejemplo de csv:
 
 ```csv
 "Summary","Usage time","","Checked phone",""
@@ -30,3 +31,6 @@ Visualizar cuanto tiempo gasto en diferentes aplicaciónes en mi celular en el m
 ```
 
 ## Ideas para la visualización de los datos
+* Cuanto he usado mi celular en total cada día mediante un bar chart.
+* EL medio por día de cuanto he usado cada aplicación con un bar chart.
+* El medio por día de cuantas veces he abierto cada aplicación.
