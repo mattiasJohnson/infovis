@@ -31,6 +31,6 @@ Los datos vienen en csv y cuanton por cada día cuanto he usado una aplicación 
 ```
 
 ## Ideas para la visualización de los datos
-* Cuanto he usado mi celular en total cada día mediante un bar chart.
-* EL medio por día de cuanto he usado cada aplicación con un bar chart.
-* El medio por día de cuantas veces he abierto cada aplicación.
+* Cuanto he usado mi celular en total cada día mediante un bar chart, un bar por día en orden cronológico.
+* EL medio por día de cuanto he usado cada aplicación con un bar chart, en orden del más usado al menos usado. El label seria el icono de la app con el nombre de la app.
+* El medio por día de cuantas veces he abierto cada aplicación.  El label seria el icono de la app con el nombre de la app.
