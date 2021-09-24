@@ -38,3 +38,4 @@ Los datos vienen en csv y cuanton por cada día cuanto he usado una aplicación 
 
 Los bars tendran un color parecido a los colores de los apps.
 
+![](20210924_105458.jpg)
