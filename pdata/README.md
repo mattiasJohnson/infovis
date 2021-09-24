@@ -31,6 +31,10 @@ Los datos vienen en csv y cuanton por cada día cuanto he usado una aplicación 
 ```
 
 ## Ideas para la visualización de los datos
-* Cuanto he usado mi celular en total cada día mediante un bar chart, un bar por día en orden cronológico.
-* EL medio por día de cuanto he usado cada aplicación con un bar chart, en orden del más usado al menos usado. El label seria el icono de la app con el nombre de la app.
-* El medio por día de cuantas veces he abierto cada aplicación.  El label seria el icono de la app con el nombre de la app.
+* **Trend Total Phone Usage:** Cuanto tiempo he usado mi celular en total cada día mediante un bar chart, un bar por día en orden cronológico.
+* **Average App Usage:** El medio por Septiembre de cuanto he usado cada aplicación (minutos/día) con un bar chart, en orden del más usado al menos usado. El label seria el icono de la app con el nombre de la app. Será un horizontal bar chart (asi que los nombres de los apps tienen espacio).
+* ~~El medio por día de cuantas veces he abierto cada aplicación.  El label seria el icono de la app con el nombre de la app.~~
+* **Trend Apps:** Cuanto tiempo he usado diferentes aplicaciones cada día mediante bar charts: habrá cautros categorias como "Waste of time apps", "Dating apps", "Social apps" y "Exploration Apps" y cada categoria tendrá un plot. Cada plot mostrerá entre 3 y 5 apps en estilo "grouped bar chart". El eje x será día de Septiembre y eje y minutos.
+
+Los bars tendran un color parecido a los colores de los apps.
+
