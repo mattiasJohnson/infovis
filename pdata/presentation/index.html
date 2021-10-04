@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="pico.css">
+
+    <link rel="stylesheet" href="my.css">
+    <script type="text/javascript" src="main.js"></script>
+
+
+</head>
+
+<body>
+
+    <h1>El uso promedio de día</h1>
+
+    <iframe src="avg_use.html" height=650 width=650></iframe>
+
+
+    <h1>Uso total por día durante septiembre</h1>
+
+    <iframe src="total_usage_thick.html" height=650 width=650></iframe>
+
+
+
+    <h1>Tendencias</h1>
+
+    <h2>Aplicaciónes de cita</h2>
+
+    <!-- Tab content -->
+    <div id="dating_line" class="tabcontent tabdating">
+        <iframe src="trend_dating_line.html" height=650 width=1550></iframe>
+    </div>
+    <div id="dating_bar" class="tabcontent tabdating">
+        <iframe src="trend_dating.html" height=650 width=1550></iframe>
+    </div>
+    <!-- Tab links -->
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'dating_line')" id="defaultDating">Línea de tendencia</button>
+        <button class="tablinks" onclick="openCity(event, 'dating_bar')">Diagrama de barras</button>
+    </div>
+
+    <h2>Aplicaciónes de exploración</h2>
+
+    <!-- Tab content -->
+    <div id="exploration_line" class="tabcontent tabexploration">
+        <iframe src="trend_exploration_line.html" height=650 width=1550></iframe>
+    </div>
+    <div id="exploration_bar" class="tabcontent tabexploration">
+        <iframe src="trend_exploration.html" height=650 width=1550></iframe>
+    </div>
+    <!-- Tab links -->
+    <div class="tab">
+        <button id="defaultExploration" class="tablinks" onclick="openCity(event, 'exploration_line')" id="defaultOpen">Línea de tendencia</button>
+        <button class="tablinks" onclick="openCity(event, 'exploration_bar')">Diagrama de barras</button>
+    </div>
+
+    <h2>Aplicaciónes sociales</h2>
+
+    <!-- Tab content -->
+    <div id="social_line" class="tabcontent tabsocial">
+        <iframe src="trend_social_line.html" height=650 width=1550></iframe>
+    </div>
+    <div id="social_bar" class="tabcontent tabsocial">
+        <iframe src="trend_social.html" height=650 width=1550></iframe>
+    </div>
+    <!-- Tab links -->
+    <div class="tab">
+        <button id="defaultSocial" class="tablinks" onclick="openCity(event, 'social_line')" id="defaultOpen">Línea de tendencia</button>
+        <button class="tablinks" onclick="openCity(event, 'social_bar')">Diagrama de barras</button>
+    </div>
+
+    <h2>Aplicaciónes de perdida de tiempo</h2>
+
+    <!-- Tab content -->
+    <div id="waste_line" class="tabcontent tabwaste">
+        <iframe src="trend_waste_line.html" height=650 width=1550></iframe>
+    </div>
+    <div id="waste_bar" class="tabcontent tabwaste">
+        <iframe src="trend_waste.html" height=650 width=1550></iframe>
+    </div>
+    <!-- Tab links -->
+    <div class="tab">
+        <button id="defaultWaste" class="tablinks" onclick="openCity(event, 'waste_line')" id="defaultOpen">Línea de tendencia</button>
+        <button class="tablinks" onclick="openCity(event, 'waste_bar')">Diagrama de barras</button>
+    </div>
+
+
+
+
+</body>
+
+</html>
