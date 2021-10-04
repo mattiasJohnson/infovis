@@ -1,7 +1,7 @@
 
 # El uso promedio de día
 
-<iframe src="avg_use.html" height=400 width=400></iframe>
+<iframe src="avg_use.html"></iframe>
 
 
 # Uso total por día durante Septiembre
