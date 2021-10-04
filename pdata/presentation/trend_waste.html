@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.3.min.js" integrity="sha384-dM3QQsP+wXdHg42wTqW85BjZQdLNNIXqlPw/BgKoExPmTG7ZLML4EGqLMfqHT6ON" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="49ce31ba-8ad4-41c5-b4e1-219bba548ddc" data-root-id="216771"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="216978">
+          {"3bd219c1-3eb9-4c54-ac72-8c234d9ef2ad":{"defs":[],"roots":{"references":[{"attributes":{"axis":{"id":"216786"},"dimension":1,"ticker":null},"id":"216789","type":"Grid"},{"attributes":{"data":{"app_name":["Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook","Facebook"],"time_spent":[86.63333333333334,75.2,62.233333333333334,18.466666666666665,61.38333333333333,74.15,107.05,59.06666666666667,60.416666666666664,62.85,70.53333333333333,43.9,27.55,68.3,32.61666666666667,134.55,63.05,80.45,96.35,87.11666666666666,91.73333333333333,67.65,75.88333333333334,74.28333333333333,78.15,14.55,83.51666666666667],"x":[0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130]},"selected":{"id":"216816"},"selection_policy":{"id":"216817"}},"id":"216803","type":"ColumnDataSource"},{"attributes":{},"id":"216787","type":"BasicTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#C52F74"},"line_alpha":{"value":0.1},"line_color":{"value":"#C52F74"},"top":{"field":"time_spent"},"width":{"value":0.8},"x":{"field":"x","transform":{"id":"216821"}}},"id":"216824","type":"VBar"},{"attributes":{},"id":"216835","type":"Selection"},{"attributes":{"data_source":{"id":"216820"},"glyph":{"id":"216823"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"216824"},"view":{"id":"216826"}},"id":"216825","type":"GlyphRenderer"},{"attributes":{"range":{"id":"216774"}},"id":"216821","type":"Dodge"},{"attributes":{"source":{"id":"216820"}},"id":"216826","type":"CDSView"},{"attributes":{},"id":"216780","type":"LinearScale"},{"attributes":{"fill_color":{"value":"#C52F74"},"line_color":{"value":"#C52F74"},"top":{"field":"time_spent"},"width":{"value":0.8},"x":{"field":"x","transform":{"id":"216821"}}},"id":"216823","type":"VBar"},{"attributes":{},"id":"216836","type":"UnionRenderers"},{"attributes":{"end":132.5,"start":-2.5},"id":"216774","type":"Range1d"},{"attributes":{"callback":null,"tooltips":[["App","@app_name"],["Uso promedio","@time_spent{0.} minutos"]]},"id":"216794","type":"HoverTool"},{"attributes":{"label":{"value":"Instagram"},"renderers":[{"id":"216825"}]},"id":"216837","type":"LegendItem"},{"attributes":{"below":[{"id":"216782"}],"center":[{"id":"216785"},{"id":"216789"},{"id":"216818"}],"left":[{"id":"216786"}],"renderers":[{"id":"216808"},{"id":"216825"},{"id":"216843"}],"title":{"id":"216772"},"toolbar":{"id":"216795"},"width":1500,"x_range":{"id":"216774"},"x_scale":{"id":"216778"},"y_range":{"id":"216776"},"y_scale":{"id":"216780"}},"id":"216771","subtype":"Figure","type":"Plot"},{"attributes":{"active_multi":null,"tools":[{"id":"216790"},{"id":"216791"},{"id":"216792"},{"id":"216793"},{"id":"216794"}]},"id":"216795","type":"Toolbar"},{"attributes":{},"id":"216790","type":"PanTool"},{"attributes":{"axis_label":"Minutos","axis_label_text_font_size":"14px","formatter":{"id":"216813"},"major_label_policy":{"id":"216811"},"minor_tick_line_color":null,"ticker":{"id":"216787"}},"id":"216786","type":"LinearAxis"},{"attributes":{"source":{"id":"216803"}},"id":"216809","type":"CDSView"},{"attributes":{"range":{"id":"216774"},"value":1.0},"id":"216839","type":"Dodge"},{"attributes":{"data":{"app_name":["Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram","Instagram"],"time_spent":[69.41666666666667,29.5,31.466666666666665,138.33333333333334,166.66666666666666,29.4,51.13333333333333,63.71666666666667,43.06666666666667,17.65,38.88333333333333,43.28333333333333,51.3,56.88333333333333,34.983333333333334,65.23333333333333,62.733333333333334,68.36666666666666,29.55,71.83333333333333,33.31666666666667,56.483333333333334,87.4,34.86666666666667,41.43333333333333,18.5,70.31666666666666],"x":[0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130]},"selected":{"id":"216835"},"selection_policy":{"id":"216836"}},"id":"216820","type":"ColumnDataSource"},{"attributes":{"range":{"id":"216774"},"value":-1.0},"id":"216804","type":"Dodge"},{"attributes":{"data_source":{"id":"216803"},"glyph":{"id":"216806"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"216807"},"view":{"id":"216809"}},"id":"216808","type":"GlyphRenderer"},{"attributes":{},"id":"216811","type":"AllLabels"},{"attributes":{"start":0},"id":"216776","type":"DataRange1d"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#4064AC"},"line_alpha":{"value":0.1},"line_color":{"value":"#4064AC"},"top":{"field":"time_spent"},"width":{"value":0.8},"x":{"field":"x","transform":{"id":"216804"}}},"id":"216807","type":"VBar"},{"attributes":{},"id":"216816","type":"Selection"},{"attributes":{"ticks":[0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130]},"id":"216801","type":"FixedTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#158CCD"},"line_alpha":{"value":0.1},"line_color":{"value":"#158CCD"},"top":{"field":"time_spent"},"width":{"value":0.8},"x":{"field":"x","transform":{"id":"216839"}}},"id":"216842","type":"VBar"},{"attributes":{},"id":"216813","type":"BasicTickFormatter"},{"attributes":{},"id":"216855","type":"Selection"},{"attributes":{"axis_label":"D\u00eda de Septiembre","axis_label_text_font_size":"14px","formatter":{"id":"216815"},"major_label_overrides":{"0":"1","10":"3","100":"21","105":"22","110":"23","115":"24","120":"25","125":"26","130":"27","15":"4","20":"5","25":"6","30":"7","35":"8","40":"9","45":"10","5":"2","50":"11","55":"12","60":"13","65":"14","70":"15","75":"16","80":"17","85":"18","90":"19","95":"20"},"major_label_policy":{"id":"216814"},"ticker":{"id":"216801"}},"id":"216782","type":"LinearAxis"},{"attributes":{"data_source":{"id":"216838"},"glyph":{"id":"216841"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"216842"},"view":{"id":"216844"}},"id":"216843","type":"GlyphRenderer"},{"attributes":{"items":[{"id":"216819"},{"id":"216837"},{"id":"216857"}],"location":"top_left"},"id":"216818","type":"Legend"},{"attributes":{"source":{"id":"216838"}},"id":"216844","type":"CDSView"},{"attributes":{},"id":"216793","type":"SaveTool"},{"attributes":{"axis":{"id":"216782"},"grid_line_color":null,"ticker":null},"id":"216785","type":"Grid"},{"attributes":{},"id":"216815","type":"BasicTickFormatter"},{"attributes":{},"id":"216792","type":"ResetTool"},{"attributes":{},"id":"216817","type":"UnionRenderers"},{"attributes":{"fill_color":{"value":"#158CCD"},"line_color":{"value":"#158CCD"},"top":{"field":"time_spent"},"width":{"value":0.8},"x":{"field":"x","transform":{"id":"216839"}}},"id":"216841","type":"VBar"},{"attributes":{},"id":"216778","type":"LinearScale"},{"attributes":{},"id":"216791","type":"WheelZoomTool"},{"attributes":{"label":{"value":"Facebook"},"renderers":[{"id":"216808"}]},"id":"216819","type":"LegendItem"},{"attributes":{},"id":"216814","type":"AllLabels"},{"attributes":{},"id":"216856","type":"UnionRenderers"},{"attributes":{"fill_color":{"value":"#4064AC"},"line_color":{"value":"#4064AC"},"top":{"field":"time_spent"},"width":{"value":0.8},"x":{"field":"x","transform":{"id":"216804"}}},"id":"216806","type":"VBar"},{"attributes":{"label":{"value":"Edge"},"renderers":[{"id":"216843"}]},"id":"216857","type":"LegendItem"},{"attributes":{"data":{"app_name":["Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge","Edge"],"time_spent":[96.66666666666667,133.03333333333333,122.86666666666666,67.83333333333333,103.08333333333333,12.5,24.533333333333335,80.95,42.3,63.63333333333333,45.2,84.81666666666666,93.98333333333333,46.2,66.7,401.28333333333336,159.63333333333333,158.46666666666667,90.8,172.8,180.55,93.75,71.88333333333334,92.56666666666666,231.38333333333333,40.93333333333333,131.15],"x":[0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130]},"selected":{"id":"216855"},"selection_policy":{"id":"216856"}},"id":"216838","type":"ColumnDataSource"},{"attributes":{"align":"center","text":"Apps de una perdida de tiempo - Uso durante el mes","text_font_size":"20px"},"id":"216772","type":"Title"}],"root_ids":["216771"]},"title":"Bokeh Application","version":"2.3.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('216978').textContent;
+                  var render_items = [{"docid":"3bd219c1-3eb9-4c54-ac72-8c234d9ef2ad","root_ids":["216771"],"roots":{"216771":"49ce31ba-8ad4-41c5-b4e1-219bba548ddc"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
