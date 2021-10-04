@@ -1,12 +1,12 @@
 
 # El uso promedio de día
 
-<iframe src="avg_use.html" height=600 width=600></iframe>
+<iframe src="avg_use.html" height=650 width=650></iframe>
 
 
 # Uso total por día durante Septiembre
 
-<iframe src="total_use.html" height=600 width=600></iframe>
+<iframe src="total_use.html" height=650 width=650></iframe>
 
 
 
@@ -14,11 +14,11 @@
 
 ## Aplicaciónes de cita
 
-<iframe src="trend_dating.html" height=600 width=1500></iframe>
+<iframe src="trend_dating.html" height=650 width=1550></iframe>
 
 ## Aplicaciónes de exploración
 
-<iframe src="trend_exploration.html" height=600 width=1500></iframe>
+<iframe src="trend_exploration.html" height=650 width=1550></iframe>
 
 ## Aplicaciónes sociales
 
@@ -26,4 +26,4 @@
 
 ## Aplicaciónes de perdida de tiempo
 
-<iframe src="trend_waste.html" height=650 width=1600></iframe>
+<iframe src="trend_waste.html" height=650 width=1550></iframe>
