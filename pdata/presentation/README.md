@@ -22,8 +22,8 @@
 
 ## Aplicaciónes sociales
 
-<iframe src="trend_social.html" height=600 width=1500></iframe>
+<iframe src="trend_social.html" height=650 width=1550></iframe>
 
 ## Aplicaciónes de perdida de tiempo
 
-<iframe src="trend_waste.html" height=600 width=1500</iframe>
+<iframe src="trend_waste.html" height=650 width=1600></iframe>
