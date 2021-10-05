@@ -2,11 +2,15 @@ body {
     margin: 2em;
 }
 
+p {
+  max-width: 800px;
+}
 
-iframe {
+
+/* iframe {
     display: block;
     margin: 0 auto;
-}
+} */
 
 
 button {
